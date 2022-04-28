@@ -7,7 +7,10 @@ const userSchema = mongoose.Schema({
     type: String,
     required: true,
     unique: true,
-  }
+  },
+  ticks: [{
+    type: 
+  }]
 }, {timestamps: true});
 
 // Add unique validation. Code of the tick must be unique
